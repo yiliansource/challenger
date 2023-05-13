@@ -1,4 +1,5 @@
 import { singlePromiseCache } from "ts-promise-cache";
+import { Champion } from "./data-dragon";
 
 export interface Challenge {
     name: string;
@@ -6,6 +7,8 @@ export interface Challenge {
     attribute: string;
     minimum: number;
 }
+
+export type AttributeLookup = Record<string, Record<string, boolean>>;
 
 export const challenges = singlePromiseCache<Challenge[]>(async () => {
     const csv = (await import("@/data/challenges.csv")).default;
@@ -23,9 +26,9 @@ export const challenges = singlePromiseCache<Challenge[]>(async () => {
     return challenges;
 });
 
-export const attributeLookup = singlePromiseCache<Record<string, Record<string, boolean>>>(async () => {
+export const attributeLookup = singlePromiseCache<AttributeLookup>(async () => {
     const csv = (await import("@/data/attributes.csv")).default;
-    const matrix: Record<string, Record<string, boolean>> = {};
+    const matrix: AttributeLookup = {};
 
     for (const row of csv) {
         const obj: Record<string, boolean> = {};
@@ -40,3 +43,7 @@ export const attributeLookup = singlePromiseCache<Record<string, Record<string, 
 
     return matrix;
 });
+
+export function satisfiesChallenge(champion: Champion, challenge: Challenge, attributes: AttributeLookup): boolean {
+    return attributes[champion.name]?.[challenge.attribute] || false;
+}
