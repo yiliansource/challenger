@@ -14,7 +14,7 @@ export function ChallengeItem({ challenge, selected, onClick }: ChallengeItemPro
         <div
             className={clsx(
                 "select-none cursor-pointer bg-[#17172e] border border-[#2c2c40] w-64 h-48 p-4 rounded-lg shadow-md flex flex-col justify-center",
-                selected && "bg-[#1154df] border-transparent"
+                selected && "!bg-[#1154df] border-transparent"
             )}
             onClick={onClick}
         >
