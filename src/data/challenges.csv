@@ -1,0 +1,31 @@
+Name,Description,Attribute,Minimum Champions
+Hold That Pose,Win with a 5-stack with 3+ champs with 2+ immobilizing spells,CrowdControl,3
+Nowhere to Hide,Win with a 5-stack with 3 or more champions with a global ability,Global,3
+"It Has ""Ultimate"" In the Name!",Win with a 5-stack with 3 or more champions with an ultimate with a large Area of Effect,AOEUlt,3
+We Protec,Win with a 5-stack with 3 or more champions with a heal or shield. Self-heals and self-shields do not count,Heals,3
+They Just... Don't... DIE!,"Win with a 5-stack with 3 or more champions with a revive, immunity, or zombie ability",Revive,3
+Where'd They Go?,Win with a 5-stack with 3 or more champions with stealth (camouflage or invisibility count),Stealth,3
+We're Good Over Here,"Win with a 5-stack with 3 or more ""poke"" champions",Poke,3
+Summoners on the Rift,Win with a 5-stack with 5 champions with a summon or a pet,Summon,5
+Get Over Here,Win with a 5-stack with 3 or more champions with a displacement,Hook,3
+It's a Trap!,Win with a 5-stack with 3 or more champions with a trap,Traps,3
+I'm Helping,Win with a 5-stack with 3 or more champions with the ability to create terrain,Terrain,3
+5 Under 5',Win with a 5-stack with 5 champions from Bandle City,BandleCity,5
+All Hands on Deck,Win with a 5-stack with 5 champions from Bilgewater,Bilgewater,5
+FOR DEMACIA,Win with a 5-stack with 5 champions from Demacia,Demacia,5
+"Ice, Ice, Baby",Win with a 5-stack with 5 champions from the Freljord,Freljord,5
+Everybody was Wuju Fighting,Win with a 5-stack with 5 champions from Ionia,Ionia,5
+"Elemental, My Dear Watson",Win with a 5-stack with 5 champions from Ixtal,Ixtal,5
+Strength Above All,Win with a 5-stack with 5 champions from Noxus,Noxus,5
+Calculated,Win with a 5-stack with 5 champions from Piltover,Piltover,5
+Spooky Scary Skeletons,Win with a 5-stack with 5 champions from the Shadow Isles,ShadowIsles,5
+The Sun Disc Never Sets,Win with a 5-stack with 5 champions from Shurima,Shurima,5
+Peak Performance,Win with a 5-stack with 5 champions from Targon,Targon,5
+(Inhuman Screeching Sounds),Win with a 5-stack with 5 champions from the Void,Void,5
+Chemtech Comrades,Win with a 5-stack with 5 champions from Zaun,Zaun,5
+Assassinating's Underrated,Win with a 5-stack with 5 champions from the same class,Assassin,5
+Supporting's Underrated,Win with a 5-stack with 5 champions from the same class,Support,5
+Tanking's Underrated,Win with a 5-stack with 5 champions from the same class,Tank,5
+Shooting's Underrated,Win with a 5-stack with 5 champions from the same class,Marksman,5
+Casting's Underrated,Win with a 5-stack with 5 champions from the same class,Mage,5
+Fighting's Underrated,Win with a 5-stack with 5 champions from the same class,Fighter,5
