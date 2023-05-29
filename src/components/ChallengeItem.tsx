@@ -13,13 +13,13 @@ export function ChallengeItem({ challenge, selected, onClick }: ChallengeItemPro
     return (
         <div
             className={clsx(
-                "select-none cursor-pointer bg-[#17172e] hover:bg-[#202043] border border-[#2c2c40] w-64 h-48 p-4 rounded-lg flex flex-col justify-center",
+                "select-none cursor-pointer bg-[#17172e] hover:bg-[#202043] border border-[#2c2c40] py-4 px-6 rounded-lg flex flex-col justify-center",
                 selected && "!bg-[#1154df] border-transparent"
             )}
             onClick={onClick}
         >
-            <p className="mb-2 font-bold text-center">{challenge.name}</p>
-            <p className="text-center text-sm">{challenge.description}</p>
+            <p className="mb-2 font-bold text-sm text-center">{challenge.name}</p>
+            <p className="text-center text-xs">{challenge.description}</p>
         </div>
     );
 }
